@@ -9,12 +9,15 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.api.function.Executable;
+import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import static com.ynov.methotest1.Exo2.*;
 
 @SpringBootTest
+@ExtendWith(MockitoExtension.class)
 class Exo2Test {
 	
 	@Test
